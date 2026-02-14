@@ -1,0 +1,73 @@
+/*Used alot of W 3 Schools for CSS, some sections reference it - https://www.w3schools.com/css/css_align.asp*/
+
+/* this removes all the default spcaing my broswer adds */
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+} 
+
+body {
+    background-color: #141414;
+    color: white;
+    font-family: Arial, sans-serif;
+}
+
+
+.hero {
+    height: 400px;
+    background-color: #1a1a1a;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    
+}
+
+a {
+    color:white;
+    text-decoration: none;
+    
+}
+
+.section {
+    padding: 40px 20px; /* 40px from top, 20 from side*/
+}
+
+.section h2 {
+    margin-bottom: 20px;
+    font-size: 24px;
+}
+
+.scroll-container {
+    display: flex;
+    gap: 20px;
+    overflow-x: scroll;
+    padding-bottom: 10px;
+}
+
+.card {
+    min-width: 400px;
+    min-height: 550px;
+    height: 150px;
+    background-color: #222;
+    padding: 20px;
+    border-radius: 8px;
+    cursor: pointer; /* shows cursor when u hover over to indicate its clickable*/
+}
+
+.card:hover {
+    background-color: #333;
+    transform: scale(1.05);
+    transition: 0.3s;
+}
+
+.card h3 {
+    margin-bottom: 10px;
+    font-size: 18px;
+}
+
+.card p {
+    color: #aaa;
+    font-size: 14px;
+}
