@@ -18,9 +18,6 @@ def hobbies():
 def projects():
     return render_template('projects.html')
 
-@app.route('/anime')
-def anime():
-    return render_template('anime.html')
 
 @app.route('/languages')
 def languages():

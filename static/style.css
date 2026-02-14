@@ -48,18 +48,21 @@ a {
 
 .card {
     min-width: 400px;
-    min-height: 550px;
-    height: 150px;
+    height: 200px;
     background-color: #222;
     padding: 20px;
     border-radius: 8px;
+    border-radius: 8px;
     cursor: pointer; /* shows cursor when u hover over to indicate its clickable*/
+    border-left: 4px solid #555;
+
 }
 
 .card:hover {
     background-color: #333;
     transform: scale(1.05);
     transition: 0.3s;
+    border-left-color: #888;
 }
 
 .card h3 {
@@ -70,4 +73,48 @@ a {
 .card p {
     color: #aaa;
     font-size: 14px;
+}
+
+
+
+/* Styling for main body pages */
+.page-info {
+    max-width: 800px;
+    margin: auto;
+    padding: 60px 24px;
+}
+
+.page-heading {
+    margin-bottom: 40px;
+}
+
+.page-heading h1 {
+    font-size: 40px;
+}
+
+.info-block {
+    margin-bottom: 30px;
+}
+
+.info-block h2 {
+    font-size: 24px;
+    margin-bottom: 10px;
+}
+
+.info-block p {
+    font-size: 16px;
+    line-height: 1.5;
+    color: #ccc;
+}
+
+.home-button {
+    display: inline-block;
+    margin-top: 20px;
+    padding: 12px 24px;
+    background-color: #333;
+    border-radius: 5px;
+}
+
+.home-button:hover {
+    background-color: #444;
 }
