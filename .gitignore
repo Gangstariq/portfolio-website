@@ -1,0 +1,17 @@
+#git ignore found from stackoverflow
+# Python
+venv/
+__pycache__/
+*.pyc
+*.pyo
+*.pyd
+
+# Flask
+instance/
+.env
+
+# IDEs
+.vscode/
+
+# OS
+.DS_Store
